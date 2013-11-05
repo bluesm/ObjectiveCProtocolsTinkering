@@ -24,6 +24,8 @@
 		1920C899181FBB2600964A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1920C871181FBB2600964A11 /* Foundation.framework */; };
 		1920C8A1181FBB2600964A11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1920C89F181FBB2600964A11 /* InfoPlist.strings */; };
 		1920C8A4181FBB2600964A11 /* ProtocolsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920C8A3181FBB2600964A11 /* ProtocolsTestTests.m */; };
+		1920C8B0181FC3D400964A11 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920C8AF181FC3D400964A11 /* MyDataSource.m */; };
+		19D44D101828FECB007DC389 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D44D0F1828FECB007DC389 /* PieChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,11 @@
 		1920C8A0181FBB2600964A11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1920C8A2181FBB2600964A11 /* ProtocolsTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolsTestTests.h; sourceTree = "<group>"; };
 		1920C8A3181FBB2600964A11 /* ProtocolsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolsTestTests.m; sourceTree = "<group>"; };
+		1920C8AD181FBBE900964A11 /* PieChartViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewDataSource.h; sourceTree = "<group>"; };
+		1920C8AE181FC3D400964A11 /* MyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSource.h; sourceTree = "<group>"; };
+		1920C8AF181FC3D400964A11 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSource.m; sourceTree = "<group>"; };
+		19D44D0E1828FECA007DC389 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		19D44D0F1828FECB007DC389 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +131,11 @@
 				1920C887181FBB2600964A11 /* MainStoryboard_iPhone.storyboard */,
 				1920C88A181FBB2600964A11 /* MainStoryboard_iPad.storyboard */,
 				1920C88D181FBB2600964A11 /* ViewController.h */,
+				1920C8AD181FBBE900964A11 /* PieChartViewDataSource.h */,
+				19D44D0E1828FECA007DC389 /* PieChart.h */,
+				19D44D0F1828FECB007DC389 /* PieChart.m */,
+				1920C8AE181FC3D400964A11 /* MyDataSource.h */,
+				1920C8AF181FC3D400964A11 /* MyDataSource.m */,
 				1920C88E181FBB2600964A11 /* ViewController.m */,
 				1920C876181FBB2600964A11 /* Supporting Files */,
 			);
@@ -277,6 +289,8 @@
 				1920C87C181FBB2600964A11 /* main.m in Sources */,
 				1920C880181FBB2600964A11 /* AppDelegate.m in Sources */,
 				1920C88F181FBB2600964A11 /* ViewController.m in Sources */,
+				1920C8B0181FC3D400964A11 /* MyDataSource.m in Sources */,
+				19D44D101828FECB007DC389 /* PieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +481,7 @@
 				1920C8A9181FBB2600964A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1920C8AA181FBB2600964A11 /* Build configuration list for PBXNativeTarget "ProtocolsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +490,7 @@
 				1920C8AC181FBB2600964A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
