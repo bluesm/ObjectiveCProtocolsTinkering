@@ -26,6 +26,7 @@
 		1920C8A4181FBB2600964A11 /* ProtocolsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920C8A3181FBB2600964A11 /* ProtocolsTestTests.m */; };
 		1920C8B0181FC3D400964A11 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920C8AF181FC3D400964A11 /* MyDataSource.m */; };
 		19D44D101828FECB007DC389 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D44D0F1828FECB007DC389 /* PieChart.m */; };
+		19D44D1318291154007DC389 /* DatSourWithoutTitleArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D44D1218291154007DC389 /* DatSourWithoutTitleArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		1920C8AF181FC3D400964A11 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSource.m; sourceTree = "<group>"; };
 		19D44D0E1828FECA007DC389 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
 		19D44D0F1828FECB007DC389 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		19D44D1118291154007DC389 /* DatSourWithoutTitleArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatSourWithoutTitleArray.h; sourceTree = "<group>"; };
+		19D44D1218291154007DC389 /* DatSourWithoutTitleArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatSourWithoutTitleArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +134,14 @@
 				1920C887181FBB2600964A11 /* MainStoryboard_iPhone.storyboard */,
 				1920C88A181FBB2600964A11 /* MainStoryboard_iPad.storyboard */,
 				1920C88D181FBB2600964A11 /* ViewController.h */,
+				1920C88E181FBB2600964A11 /* ViewController.m */,
 				1920C8AD181FBBE900964A11 /* PieChartViewDataSource.h */,
 				19D44D0E1828FECA007DC389 /* PieChart.h */,
 				19D44D0F1828FECB007DC389 /* PieChart.m */,
 				1920C8AE181FC3D400964A11 /* MyDataSource.h */,
 				1920C8AF181FC3D400964A11 /* MyDataSource.m */,
-				1920C88E181FBB2600964A11 /* ViewController.m */,
+				19D44D1118291154007DC389 /* DatSourWithoutTitleArray.h */,
+				19D44D1218291154007DC389 /* DatSourWithoutTitleArray.m */,
 				1920C876181FBB2600964A11 /* Supporting Files */,
 			);
 			path = ProtocolsTest;
@@ -291,6 +296,7 @@
 				1920C88F181FBB2600964A11 /* ViewController.m in Sources */,
 				1920C8B0181FC3D400964A11 /* MyDataSource.m in Sources */,
 				19D44D101828FECB007DC389 /* PieChart.m in Sources */,
+				19D44D1318291154007DC389 /* DatSourWithoutTitleArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
 
 @implementation PieChart
 
--(id)initWithDataSource:(MyDataSource *)dataSource {
+-(id)initWithDataSource:(id)dataSource {
     self = [self init];
     if(self) {
         self.dataSource = dataSource;
@@ -19,6 +19,8 @@
     
     if( [self.dataSource respondsToSelector:@selector(titleForSegmentAtIndex:)]) {
         NSLog(@"It responded");
+    } else {
+        NSLog(@"Id iddn't responded");
     }
     
     return self;

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MyDataSource.h"
 #import "PieChart.h"
+#import "DatSourWithoutTitleArray.h"
 
 @interface ViewController ()
 
@@ -27,7 +28,13 @@
     
     MyDataSource * mds = [[MyDataSource alloc] initWithNumberOfSegments:numberOfPieces andSizeArray:arrayOfSizes andTitleArray:arrayOfTitles];
     
+    DatSourWithoutTitleArray *mds2 = [[DatSourWithoutTitleArray alloc] init];
+    
     PieChart * pc = [[PieChart alloc] initWithDataSource:mds];
+    
+    PieChart * pc2 =  [[PieChart alloc] initWithDataSource:mds2];
+    
+    
     
     
     

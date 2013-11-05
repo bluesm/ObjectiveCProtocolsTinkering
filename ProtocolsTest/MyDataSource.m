@@ -23,9 +23,9 @@
 }
 
 -(NSUInteger) numberOfSegments {
-    
-    return 2;
+    return self.numOfSeg;
 }
+
 -(CGFloat)    sizeOfSegmentAtIndex:(NSUInteger)segmentIndex {
     if(segmentIndex < self.numberOfSegments) {
         return [[self.sizeArray objectAtIndex:segmentIndex] floatValue];
